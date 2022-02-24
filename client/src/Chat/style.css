@@ -1,0 +1,116 @@
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track:hover { 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:  grey; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0277bd; 
+  }
+
+
+.ico:hover {
+    color: red;
+    cursor:pointer;
+  }
+  .bg {
+    /* The image used */
+    background-image: url("https://media.istockphoto.com/photos/cropped-shot-of-an-unrecognizable-businessman-standing-alone-in-his-picture-id1343213396?b=1&k=20&m=1343213396&s=170667a&w=0&h=LgJ7TSc8EnIP7yJKfHt8SKLW0V0wSMkqQL2asvMRvDs=");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.avatar:hover{
+    cursor:pointer;
+}
+  .date {
+    text-shadow:1px 1px pink;
+    text-align: right;
+  }
+  .fb{
+     background-color: transparent !important;
+     box-shadow : none !important
+  }
+.ico:active {
+    color: yellow;
+  }
+.card-container {
+    background-color: #004c8c;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+    color: #b3b8cd;
+    padding-top: 30px;
+    position: relative;
+    width: 350px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.card-container .pro {
+    color: #231e39;
+    background-color: #febb0b;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 3px 7px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.card-container .round {
+    border: 1px solid #03bfcb;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.round{
+    
+    width : 60px;
+}
+button.primary {
+    background-color: #03bfcb;
+    border: 1px solid #03bfcb;
+    border-radius: 3px;
+    color: #231e39;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    padding: 10px 25px;
+}
+
+button.primary.ghost {
+    background-color: transparent;
+    color: #02899c;
+}
+
+.skills {
+    background-color: #1f1a36;
+    text-align: left;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.skills ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skills ul li {
+    border: 1px solid #2d2747;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 7px 7px 0;
+    padding: 7px;
+}
